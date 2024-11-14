@@ -38,5 +38,3 @@ let name1 =['avi','rohit','pratyush']
 let name2 =['Anu','Nashu','Dr']
 let joined = name1.concat(name2)
 console.log(joined) // output = [ 'avi','rohit','pratyush','Anu','Nashu','Dr' ]
-
-
