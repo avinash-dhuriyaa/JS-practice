@@ -7,7 +7,6 @@
     sum =sum+val;
  }
 
-
 // Qus 2
 // JavaScript mein jab ham likhte hain [1,2,3,4][1,2], toh yahaan 1,2 ko JavaScript comma operatorki tarah treat karta hai. Comma operator mein sirf aakhri value consider hoti hai, toh 1,2 
 //  evaluate hokar 2 ban jaata hai.
