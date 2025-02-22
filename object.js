@@ -26,3 +26,8 @@
 // }
 // console.log(user2.fullname.userfullname.firstname)
      
+let obj1= {1: "A",2:"B"}
+let obj2 = {3: "C",4:"D"}
+let obj3 ={obj1,obj2}
+ obj3 = Object.assign(obj1,obj2)
+console.log(obj3)
