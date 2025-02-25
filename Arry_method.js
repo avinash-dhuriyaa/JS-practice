@@ -38,3 +38,8 @@ let name1 =['avi','rohit','pratyush']
 let name2 =['Anu','Nashu','Dr']
 let joined = name1.concat(name2)
 console.log(joined) // output = [ 'avi','rohit','pratyush','Anu','Nashu','Dr' ]
+
+
+let A = [1,2,3,4,5,6,7]; //`slice()` array ya string ka hissa nikalta hai, bina original sequence ko modify kiye, aur nayi value return karta hai.
+let B = A.slice(2,6)
+console.log(B) // output = [4]
