@@ -17,13 +17,11 @@ let arr = [1,2,3,4][1,2,3];
 console.log("arr = "+arr)
 
 
-
-
-// let obj={
-//    1:"a",
-//    2:"b",
-//    "2":"b",
-//    [1]:"b",
+let obj={
+   1:"a",
+   2:"b",
+   "2":"b",
+   [1]:"b",
    
-// }
-// console.log(obj)
+}
+console.log(obj)
