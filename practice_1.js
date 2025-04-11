@@ -7,7 +7,6 @@
     sum =sum+val;
  }
 
-
 // Qus 2
 // JavaScript mein jab ham likhte hain [1,2,3,4][1,2], toh yahaan 1,2 ko JavaScript comma operatorki tarah treat karta hai. Comma operator mein sirf aakhri value consider hoti hai, toh 1,2 
 //  evaluate hokar 2 ban jaata hai.
@@ -18,13 +17,11 @@ let arr = [1,2,3,4][1,2,3];
 console.log("arr = "+arr)
 
 
-
-
-// let obj={
-//    1:"a",
-//    2:"b",
-//    "2":"b",
-//    [1]:"b",
+let obj={
+   1:"a",
+   2:"b",
+   "2":"b",
+   [1]:"b",
    
-// }
-// console.log(obj)
+}
+console.log(obj)
