@@ -3,7 +3,7 @@ function makeDough(){
       setTimeout(() => {
         console.log("🔥 Water boiled");
         resolve();
-      }, 2000);
+      }, 2500);
     });
   }
   function addToppings(){
@@ -19,13 +19,12 @@ function makeDough(){
         setTimeout(() => {
             console.log("🍕 Pizza baked")
             resolve();
-            }, 4000);
+            }, 3500);
             })
   }
   async function orderPizza(){
-    await makeDough()
-    await addToppings()
-    await bakePizza()
+    await Promise.all([makeDough(),addToppings()]) // yaha pe maine promiss.all laga diya hun 
+        await bakePizza()
     console.log("🍕 Pizza ready!")
   }
   orderPizza()
