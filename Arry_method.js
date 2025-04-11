@@ -40,3 +40,8 @@ let joined = name1.concat(name2)
 console.log(joined) // output = [ 'avi','rohit','pratyush','Anu','Nashu','Dr' ]
 
 
+    let arry6 = ["a","b","c",]
+    arry6.forEach(function(value){}
+
+
+)
